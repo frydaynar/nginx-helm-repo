@@ -1,2 +1,9 @@
 # nginx-helm-repo
-helm 연습
+
+Helm chart repository provided by EDU
+
+      helm repo add nginx-helm-repo https://github.com/frydaynar/nginx-helm-repo/
+      helm repo list
+      helm repo update
+      helm search repo mynginx
+      helm install webserver nginx-helm-repo/mynginx
